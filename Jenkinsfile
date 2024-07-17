@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Pull Code From GitHub') {
             steps {
-                git 'https://github.com/Iam-mithran/SaturdayProject.git'
+                git 'https://github.com/ParveshMushraf/web-k8s.git'
             }
         }
         stage('Build the Docker image') {
